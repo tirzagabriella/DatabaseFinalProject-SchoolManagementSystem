@@ -25,8 +25,5 @@ A school management system is a software application designed to streamline and 
 8. Run the app and login as SuperAdmin, you can later add dummy datas there. 
 
 ## Report
-https://docs.google.com/document/d/1D8hy2HpUNkH_jwz5DvO4Y3GkcOJ8V1OmdQs5nn3GMlw/edit?usp=sharing
+(link will provided later)
 - I have also attached the pdf file of the report at the repo
-
-## Video Demo
-https://youtu.be/z32GodeXATM
