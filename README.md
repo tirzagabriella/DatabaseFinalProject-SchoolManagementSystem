@@ -27,3 +27,4 @@ A school management system is a software application designed to streamline and 
 ## Report
 (link will provided later)
 - I have also attached the pdf file of the report at the repo
+

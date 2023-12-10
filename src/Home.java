@@ -172,9 +172,9 @@ public class Home extends JFrame implements ActionListener {
             return true;
         } else return false;
     }
-    public boolean insertSubmittedAssignmentsDummy(String assignment_id, String assignment_data, String assignment_status, String user_id) {
+    public boolean insertSubmittedAssignmentsDummy(String assignment_id, String assignment_data, String assignment_status, String assignment_score, String user_id, String assignment_feedback) {
         System.out.println("Populating dummy Submitted Assignments");
-        String query = "insert into submitted_assignment (assignment_id, assignment_data, assignment_status, user_id) values('"+assignment_id+"', '"+assignment_data+"', '"+assignment_status+"', '"+user_id+"');";
+        String query = "insert into submitted_assignment (assignment_id, assignment_data, assignment_status, assignment_score, user_id, assignment_feedback) values('"+assignment_id+"', '"+assignment_data+"', '"+assignment_status+"', '"+assignment_score+"', '"+user_id+"', '"+assignment_feedback+"');";
         if(insertQuery(query)){
             return true;
         } else return false;
@@ -235,7 +235,7 @@ public class Home extends JFrame implements ActionListener {
             while ((line = brSubAssign.readLine()) != null)
             {
                 String[] announcement = line.split(splitBy); // split each row by comma
-                if(insertSubmittedAssignmentsDummy(announcement[0], announcement[1], announcement[2], announcement[3]) == false){
+                if(insertSubmittedAssignmentsDummy(announcement[0], announcement[1], announcement[2], announcement[3], announcement[4], announcement[5]) == false){
                     return false;
                 }
             }
