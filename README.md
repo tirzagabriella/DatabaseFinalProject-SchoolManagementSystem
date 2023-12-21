@@ -1,4 +1,4 @@
-# School Management System
+# Scholar Net (School Management System)
 
 Tirza Gabriella - 2602109870 (L3AC)
 
@@ -23,8 +23,4 @@ A school management system is a software application designed to streamline and 
 6. Create the database tables for 'schooldb' database (user, attendance, announcement, assignment, submitted_assignment)
 7. Add the main admin account SuperAdmin, using the details above
 8. Run the app and login as SuperAdmin, you can later add dummy datas there. 
-
-## Report
-(link will provided later)
-- I have also attached the pdf file of the report at the repo
 
